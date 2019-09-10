@@ -18,7 +18,7 @@ public class mainController {
 
     @GetMapping("/api/hello")
     public String hello() {
-        return "Hello, the time at the server is now " + new Date() + "\n";
+        return "Hello all, the time at the server is now " + new Date() + "\n";
     }
 
     // passage du pays directement dans l url --> PathVariable
